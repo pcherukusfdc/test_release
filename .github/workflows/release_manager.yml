@@ -9,6 +9,6 @@ jobs:
   call-workflow:
     uses: pcherukusfdc/release_manager/.github/workflows/release_manager.yml@main
     with:
-      repo_name: ${{ github.repository//_release/ }
+      repo_name: ${{ github.repository//_release/ }}
       pr_number: ${{ github.event.pull_request.number }}
     secrets: inherit
